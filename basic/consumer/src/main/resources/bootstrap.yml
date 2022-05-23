@@ -21,7 +21,7 @@ spring:
       # Configure AK/SK credentials if needed. Default not enabled.
       credentials:
         enabled: true
-        accessKey: https://cse.cn-north-4.myhuaweicloud.com
+        accessKey: UWYMBUU5T9XLDOLNJGMG
         secretKey: ffbeHC74w0qa2CRMkUKbeuV3JRSFMpvfbjBWjeKH
         akskCustomCipher: default
         project: cn-south-1

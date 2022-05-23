@@ -7,22 +7,21 @@ spring:
       discovery:
         enabled: true
         watch: false
-        # address: https://cse.cn-south-1.myhuaweicloud.com
-        address: http://127.0.0.1:30100
+        address: https://cse.cn-north-4.myhuaweicloud.com
         appName: basic-application
         serviceName: ${spring.application.name}
         version: 0.0.1
         healthCheckInterval: 30
       config:
-        # serverAddr: https://cse.cn-south-1.myhuaweicloud.com
+        serverAddr: https://cse.cn-north-4.myhuaweicloud.com
         serverType: config-center
         serverAddr:  http://127.0.0.1:30113
         fileSource: consumer.yaml
 
       # Configure AK/SK credentials if needed. Default not enabled.
       credentials:
-        enabled: false
-        accessKey: your ak
-        secretKey: your sk
+        enabled: true
+        accessKey: https://cse.cn-north-4.myhuaweicloud.com
+        secretKey: ffbeHC74w0qa2CRMkUKbeuV3JRSFMpvfbjBWjeKH
         akskCustomCipher: default
         project: cn-south-1

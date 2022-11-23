@@ -14,7 +14,7 @@ Directory description:
   - zuul A Microserivce using Spring Cloud Netflix zuul to forward requests to consumer.
 
 - canary：This project providers sample to show working with Canary Deploy. 
-reser
+reserttet
   - canary-provider A Microserivce using Spring Cloud with a REST interface.
   - canary-provider-beta Same as canary-provider, but with version 0.0.2
   - canary-consumer A Microserivce using Spring Cloud with a REST interface. Consumer calls provider with RestTemplate.

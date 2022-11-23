@@ -18,7 +18,7 @@
   - canary-provider 使用 Spring Cloud 开发一个 REST 接口。  
   - canary-provider-beta 跟 canary-provider一样, 但版本是 0.0.2
   - canary-consumer 使用 Spring Cloud 开发一个 REST 接口， 接口实现通过 RestTemplate 调用 provider 的接口。  
-
+666
 - migrate：演示dubbo、hsf、sofa、tsf项目及其向spring cloud微服务的改造
 
   - dubbo：包含Dubbo原生微服务 及 将其改造为 Spring Cloud 微服务两个例子
